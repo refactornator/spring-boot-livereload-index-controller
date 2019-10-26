@@ -1,0 +1,11 @@
+.DS_Store
+.idea
+*.iml
+
+### Java ###
+# Compiled class file
+application/build/
+application/target/
+library/build/
+library/target/
+*.class

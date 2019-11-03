@@ -1,10 +1,47 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>cool.william</groupId>
-    <artifactId>spring-boot-index-controller-livereload-library</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>spring-boot-index-controller-livereload-library</name>
+    <groupId>cool.william.frontend</groupId>
+    <artifactId>spring-boot-livereload-index-controller</artifactId>
+    <version>0.0.1</version>
+    <packaging>pom</packaging>
+
+    <name>Spring Boot LiveReload Index Controller</name>
+    <description>A Spring Boot controller for developing webapps</description>
+    <url>https://github.com/wlindner/spring-boot-index-controller-livereload</url>
+
+    <organization>
+        <name>cool.william.frontend</name>
+        <url>https://github.com/wlindner</url>
+    </organization>
+
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/wlindner/spring-boot-index-controller-livereload</url>
+    </issueManagement>
+
+    <licenses>
+        <license>
+            <name>Apache License 2.0</name>
+            <url>https://github.com/wlindner/spring-boot-index-controller-livereload/blob/master/LICENSE</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/wlindner/spring-boot-index-controller-livereload</url>
+        <connection>
+            scm:git:git://github.com/wlindner/spring-boot-index-controller-livereload.git
+        </connection>
+        <developerConnection>
+            scm:git:ssh://git@github.com:wlindner/spring-boot-index-controller-livereload.git
+        </developerConnection>
+    </scm>
+    <developers>
+        <developer>
+            <name>Wlindner</name>
+        </developer>
+    </developers>
 
     <build>
         <plugins>

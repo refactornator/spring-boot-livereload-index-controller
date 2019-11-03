@@ -8,7 +8,7 @@
 
     <name>Spring Boot LiveReload Index Controller</name>
     <description>A Spring Boot controller for developing webapps</description>
-    <url>https://github.com/wlindner/spring-boot-index-controller-livereload</url>
+    <url>https://github.com/wlindner/spring-boot-livereload-index-controller</url>
 
     <organization>
         <name>cool.william.frontend</name>
@@ -17,24 +17,24 @@
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/wlindner/spring-boot-index-controller-livereload</url>
+        <url>https://github.com/wlindner/spring-boot-livereload-index-controller</url>
     </issueManagement>
 
     <licenses>
         <license>
             <name>Apache License 2.0</name>
-            <url>https://github.com/wlindner/spring-boot-index-controller-livereload/blob/master/LICENSE</url>
+            <url>https://github.com/wlindner/spring-boot-livereload-index-controller/blob/master/LICENSE</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
 
     <scm>
-        <url>https://github.com/wlindner/spring-boot-index-controller-livereload</url>
+        <url>https://github.com/wlindner/spring-boot-livereload-index-controller</url>
         <connection>
-            scm:git:git://github.com/wlindner/spring-boot-index-controller-livereload.git
+            scm:git:git://github.com/wlindner/spring-boot-livereload-index-controller.git
         </connection>
         <developerConnection>
-            scm:git:ssh://git@github.com:wlindner/spring-boot-index-controller-livereload.git
+            scm:git:ssh://git@github.com:wlindner/spring-boot-livereload-index-controller.git
         </developerConnection>
     </scm>
     <developers>

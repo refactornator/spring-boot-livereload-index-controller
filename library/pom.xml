@@ -3,7 +3,7 @@
     <groupId>cool.william.frontend</groupId>
     <artifactId>spring-boot-livereload-index-controller</artifactId>
     <version>0.0.3-SNAPSHOT</version>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
 
     <name>Spring Boot LiveReload Index Controller</name>
     <description>A Spring Boot controller for developing webapps</description>

@@ -165,7 +165,6 @@
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
-                    <attach>false</attach>
                     <appendAssemblyId>false</appendAssemblyId>
                 </configuration>
                 <executions>

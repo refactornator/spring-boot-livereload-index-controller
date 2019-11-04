@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>cool.william.frontend</groupId>
     <artifactId>spring-boot-livereload-index-controller</artifactId>
-    <version>0.0.3-SNAPSHOT</version>
+    <version>0.0.3</version>
 
     <name>Spring Boot LiveReload Index Controller</name>
     <description>A Spring Boot controller for developing webapps</description>
@@ -33,7 +33,7 @@
         <developerConnection>
             scm:git:ssh://git@github.com:wlindner/spring-boot-livereload-index-controller.git
         </developerConnection>
-      <tag>HEAD</tag>
+      <tag>spring-boot-livereload-index-controller-0.0.3</tag>
   </scm>
     <developers>
         <developer>

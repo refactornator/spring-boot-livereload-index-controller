@@ -1,11 +1,13 @@
-package cool.william;
+package cool.william.frontend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Import;
 import org.springframework.web.bind.annotation.RestController;
 
-@SpringBootApplication(scanBasePackages = "cool.william")
+@SpringBootApplication
 @RestController
+@Import(IndexController.class)
 public class FrontendApplication {
 
     public static void main(String[] args) {

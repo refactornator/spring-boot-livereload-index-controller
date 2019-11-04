@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>cool.william.frontend</groupId>
     <artifactId>spring-boot-livereload-index-controller</artifactId>
-    <version>0.0.4-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Spring Boot LiveReload Index Controller</name>
@@ -165,12 +165,11 @@
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
+                    <attach>false</attach>
+                    <appendAssemblyId>false</appendAssemblyId>
                 </configuration>
                 <executions>
                     <execution>
-                        <configuration>
-                            <attach>false</attach>
-                        </configuration>
                         <id>make-assembly</id> <!-- this is used for inheritance merges -->
                         <phase>package</phase> <!-- bind to the packaging phase -->
                         <goals>

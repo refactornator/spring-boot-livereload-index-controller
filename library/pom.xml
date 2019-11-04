@@ -170,7 +170,12 @@
                 </configuration>
                 <executions>
                     <execution>
-                        <id>dist-assembly</id>
+                        <id>make-assembly</id>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                    <execution>
                         <phase>package</phase>
                         <goals>
                             <goal>single</goal>

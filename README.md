@@ -13,6 +13,12 @@ Available in Maven Central.
 </dependency>
 ```
 
+Add an annotation to your main method, along with `@SpringBootApplication`
+```
+@Import(IndexController.class)
+```
+See [FrontendApplication.java](application/src/main/java/cool/william/frontend/FrontendApplication.java) for an example.
+
 This library provides a [Spring Boot Controller](https://www.baeldung.com/spring-controllers), so it depends on [Spring Boot](https://spring.io/projects/spring-boot), specifically [Spring Boot Web](https://spring.io/guides/gs/spring-boot/#_create_a_simple_web_application).
 ```
 <dependency>

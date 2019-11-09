@@ -3,7 +3,7 @@
 
 Intended to be used in conjunction with this gradle frontend plugin.
 
-#### Setup
+### Setup
 Available in Maven Central.
 ```
 <dependency>

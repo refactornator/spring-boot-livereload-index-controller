@@ -1,7 +1,7 @@
 ## Spring Boot LiveReload Index Controller ![Maven Central](https://img.shields.io/maven-central/v/cool.william.frontend/spring-boot-livereload-index-controller)
 ##### A simple controller that serves `resources/templates/index.html` and injects [LiveReload](http://livereload.com/) when [Spring Boot Devtools](https://docs.spring.io/spring-boot/docs/current/reference/html/using-spring-boot.html#using-boot-devtools) is included.
 
-Intended to be used in conjunction with this gradle frontend plugin.
+Intended to be used in conjunction with [gradle-setup-frontend-plugin](https://github.com/wlindner/gradle-setup-frontend-plugin).
 
 ### Setup
 Available in Maven Central.
